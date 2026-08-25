@@ -1,0 +1,17 @@
+# Credentials -- never commit these
+angel_login.py
+send_telegram.py
+
+# Generated/large data (regenerate locally via MODI1's download_angel_scrips.py,
+# or copy across again; train_model.py/train the model in MODI1 if it ever needs
+# retraining -- MODI5 reuses the same trained model)
+angel_scrips.json
+watchlist.json
+price_model.pkl
+
+# Runtime state and logs
+__pycache__/
+*.log
+logs/
+watchlist_alerted_state.json
+protective_exit_state.json
